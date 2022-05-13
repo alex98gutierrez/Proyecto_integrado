@@ -1,7 +1,5 @@
 <?php
 
-<?php
-
 echo "<!DOCTYPE html>";
 echo "<html lang='es'>";
 	echo "<head>";
@@ -34,5 +32,4 @@ echo "<html lang='es'>";
 echo "</html>";
 
 
-?>
 ?>
