@@ -27,7 +27,7 @@ echo "<html lang='es'>";
 			echo "</nav>";
 
 		echo "</header>";
-	echo "<p>CAMBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS</p>";
+		echo "<p>CAMBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS</p>";
 	echo "</body>";
 echo "</html>";
 
