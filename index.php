@@ -3,7 +3,7 @@
 echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
-  echo "<link rel="stylesheet" href="styles.css">";
+  #echo "<link rel="stylesheet" href="styles.css">";
 echo "</head>";
 echo "<body>";
 
