@@ -1,19 +1,38 @@
 <?php
 
+<?php
+
 echo "<!DOCTYPE html>";
-echo "<html>";
-echo "<head>";
-  #echo "<link rel="stylesheet" href="styles.css">";
-echo "</head>";
-echo "<body>";
+echo "<html lang='es'>";
+	echo "<head>";
+		echo "<meta charset='UTF-8'>";
+	  	echo "<link rel="stylesheet" href="styles.css">";
 
-echo "<h1>This is a heading</h1>";
-echo "<p>This is a paragraph.</p>";
+	  	echo "<title>El planeta de los videos</title>";
 
-echo "</body>";
+	echo "</head>";
+
+	echo "<body>";
+
+		echo "<h1>This is a heading</h1>";
+		echo "<p>This is a paragraph.</p>";
+
+		echo "<header>";
+
+			echo "<h2 class='logo'>El planeta de los videos";
+			echo "<nav>";
+				echo "<a href=''>Inicio</a>";
+				echo "<a href=''>Películas</a>";
+				echo "<a href=''>Series</a>";
+				echo "<a href=''>Últimos estrenos</a>";
+				echo "";
+			echo "</nav>";
+
+		echo "</header>";
+
+	echo "</body>";
 echo "</html>";
-echo "Hello World!";
 
 
-echo "CAMBIOOOOOOOOOOOOOOOOS";
+?>
 ?>
