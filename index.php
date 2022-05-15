@@ -12,15 +12,15 @@ echo "<html lang='es'>";
 
 	echo "<body>";
 
-		echo "<h1>This is a heading</h1>";
+	echo "<h1>This is a heading</h1>";
+
 		echo "<p>This is a paragraph.</p>";
 
-		echo "<header>";
+	echo "<header>";
 
         echo "<h2 class='logo'>El planeta de los videos";
 
-
-		echo "</header>";
+	echo "</header>";
 
         echo "<nav>";
             echo "<a href=''>Inicio</a>";
@@ -30,7 +30,7 @@ echo "<html lang='es'>";
             echo "";
         echo "</nav>";
 
-		echo "<p>CAMBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS</p>";
+	echo "<p>CAMBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS</p>";
         
 	echo "</body>";
 echo "</html>";
