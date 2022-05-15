@@ -1,8 +1,5 @@
 <?php
 
-$con = mysqli_init(); mysqli_ssl_set($con,NULL,NULL, "{path to CA cert}", NULL, NULL); mysqli_real_connect($conn, "el-planeta-de-los-videos.mysql.database.azure.com", "alejandro", "1qaz@WSX", "epdlv", 3306, MYSQLI_CLIENT_SSL);
-
-
 
 echo "<!DOCTYPE html>";
 echo "<html lang='es'>";
