@@ -1,11 +1,16 @@
 <?php
 
+$connect=mysqli_init(); mysqli_ssl_set($connect, NULL, NULL, NULL, NULL, NULL); mysqli_real_connect($connect, "epdlv.mysql.database.azure.com", "alejandro@epdlv", "1qaz@WSX", "prueba", 3306);
+if ($connect->connect_errno) {
+    echo "Fallo al conectar a MySQL: (" . $connect->connect_errno . ") " . $connect->connect_error;
+}
+
 
 echo "<!DOCTYPE html>";
 echo "<html lang='es'>";
 	echo "<head>";
 		echo "<meta charset='UTF-8'>";
-	  	echo "<link rel="stylesheet" href="styles.css">";
+	  	#echo "<link rel="stylesheet" href="styles.css">";
 
 	  	echo "<title>El planeta de los videos</title>";
 
