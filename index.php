@@ -17,17 +17,21 @@ echo "<html lang='es'>";
 
 		echo "<header>";
 
-			echo "<h2 class='logo'>El planeta de los videos";
-			echo "<nav>";
-				echo "<a href=''>Inicio</a>";
-				echo "<a href=''>Películas</a>";
-				echo "<a href=''>Series</a>";
-				echo "<a href=''>Últimos estrenos</a>";
-				echo "";
-			echo "</nav>";
+        echo "<h2 class='logo'>El planeta de los videos";
+
 
 		echo "</header>";
+
+        echo "<nav>";
+            echo "<a href=''>Inicio</a>";
+            echo "<a href=''>Películas</a>";
+            echo "<a href=''>Series</a>";
+            echo "<a href=''>Últimos estrenos</a>";
+            echo "";
+        echo "</nav>";
+
 		echo "<p>CAMBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS</p>";
+        
 	echo "</body>";
 echo "</html>";
 
