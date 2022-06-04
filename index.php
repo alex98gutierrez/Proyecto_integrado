@@ -6,6 +6,4 @@ if ($connect->connect_errno) {
 }
 
 
-    echo "<p>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>";
-
 ?>
