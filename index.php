@@ -65,7 +65,7 @@ if ($connect->connect_errno) {
 							<a href="#"><img src="img/2.png" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/oXIyGa4Mn3h4yIkEVPKmLgK7KhH.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
 							<a href="#"><img src="img/4.png" alt=""></a>
