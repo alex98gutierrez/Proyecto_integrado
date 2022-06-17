@@ -17,20 +17,19 @@ if ($connect->connect_errno) {
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
-	<script src="https://kit.fontawesome.com/eb083cc841.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/f2c65a301e.js" crossorigin="anonymous"></script>
 
 	<title>El planeta de los Videos</title>
 </head>
 <body>
 	<header>
 		<div class="contenedor">
-			<h2 class="logotipo">El planeta de los vídeos</h2>
+			<h2 class="logotipo"><a href="index.php"><i class="fa-solid fa-earth-europe" ></i></a> El planeta de los vídeos</h2>
 			<nav>
 				<a href="#" class="activo">Inicio</a>
 				<a href="#">Programas</a>
 				<a href="#">Películas</a>
-				<a href="#">Más Recientes</a>
-				<a href="#">Mi lista</a>
+				<a href="#">Series</a>
 			</nav>
 		</div>
 	</header>
@@ -59,52 +58,34 @@ if ($connect->connect_errno) {
 				<div class="contenedor-carousel">
 					<div class="carousel">
 						<div class="pelicula">
-							<a href="#"><img src="" alt=""></a>
+							<a href=""><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/2.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/AVATAR.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/BASTARDOS.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/4.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/DRSTRANGE.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/5.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/hoyo.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/6.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/JUMANJIJUNGLA.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/7.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/PF.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/1.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SAW.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/2.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" alt=""></a>
 						</div>
 						<div class="pelicula">
-							<a href="#"><img src="img/3.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/1.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/2.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/3.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/4.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/5.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/6.png" alt=""></a>
+							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SONIC2.jpg" alt=""></a>
 						</div>
 					</div>
 				</div>
