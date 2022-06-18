@@ -32,9 +32,25 @@ header .contenedor {
 header .logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
-	color: var(--azul);
+	color: #1C4797;
 	font-size: 40px;
+
 }
+
+header .logotipo a:visited {
+	color: #1C4797;
+}
+
+.pelicula-principal .contenedor a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pelicula-principal .contenedor button:hover {
+	background: #fff;
+	color: #000;
+}
+	
 
 header nav a {
 	color: #AAA;
@@ -52,8 +68,8 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/backdrop.jpg);
-	background-position: center center;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg);
+	/*background-position: center center;*/
 	background-size: cover;
 	margin-bottom: 3.12em;
 	display: flex;
@@ -77,6 +93,7 @@ header nav a.activo {
 	line-height: 1.75em;
 	max-width: 50%;
 	margin-bottom: 1.25em;
+	text-decoration: none;
 }
 
 .pelicula-principal .boton {
@@ -123,7 +140,7 @@ header nav a.activo {
 
 .contenedor-titulo-controles .indicadores button:hover,
 .contenedor-titulo-controles .indicadores button.activo {
-	background: blue;
+	background: #1C4797;
 }
 
 
@@ -196,6 +213,8 @@ header nav a.activo {
 	vertical-align: top;
 }
 
+
+
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
 	header .logotipo {
@@ -231,4 +250,44 @@ header nav a.activo {
 	.peliculas-recomendadas .flecha-derecha {
 		display: none;
 	}
+}
+
+.video-pelicula {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-pelicula .titulo-trailer {
+	text-align: center;
+	color: #fff;
+	font-size: 45px;
+	padding-bottom: 15px;
+}
+
+.video-pelicula .video-trailer {
+	padding-bottom: 50px;
+}
+
+table .peliculas .pelicula {
+	height: auto;
+	width: auto;
+
+}
+
+.tabla_peliculas .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.tabla_peliculas .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.tabla_peliculas .pelicula img {
+	width: 100%;
+	vertical-align: top;
 }
