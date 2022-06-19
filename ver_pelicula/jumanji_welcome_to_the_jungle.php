@@ -5,9 +5,16 @@ if ($connect->connect_errno) {
     echo "Fallo al conectar a MySQL: (" . $connect->connect_errno . ") " . $connect->connect_error;
 }
 
-$sql = "SELECT titulo, descripcion, trailer FROM film WHERE film_id = 7;";
+$sql = "SELECT titulo, descripcion, trailer, imagen FROM film WHERE film_id = 7;";
 
 $result = $connect->query($sql);
+
+$row = $result->fetch_assoc();
+
+$titulo=$row['titulo'];
+$descripcion=$row['descripcion'];
+$trailer=$row['trailer'];
+$imagen=$row['imagen'];
 
 ?>
 
@@ -38,19 +45,17 @@ $result = $connect->query($sql);
 	</header>
 
 	<div class="pelicula-principal">
+		<?php
+			echo "<img src=$imagen ></img>"
+		?>
 		<div class="contenedor">
 			<h3 class="titulo">
 				<?php
-					$row = $result->fetch_assoc();
-					$titulo=$row['titulo'];
-					$descripcion=$row['descripcion'];
-					$trailer=$row['trailer'];
-
 					echo "<a>$titulo</a>";
 				?>
 			</h3>
 			<p class="descripcion">
-			<?php
+				<?php
 					echo "<a>$descripcion</a>";
 				?>
 			</p>

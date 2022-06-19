@@ -39,26 +39,30 @@ $result = $connect->query($sql);
 
 	<main>
 		<div class="pelicula-principal">
-		<div class="contenedor">
-			<h3 class="titulo">
-				<?php
-					$row = $result->fetch_assoc();
-					$titulo=$row['titulo'];
-					$descripcion=$row['descripcion'];
-					$trailer=$row['trailer'];
-
-					echo "<a>$titulo</a>";
-				?>
-			</h3>
-			<p class="descripcion">
-			<?php
-					echo "<a>$descripcion</a>";
-				?>
-			</p>
-			<button type="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
-			<button type="button" class="boton" onclick="window.open('https://en.wikipedia.org/wiki/Straight_Outta_Compton_(film)')"><i class="fas fa-info-circle"></i>Más información</button>
 			
-		</div>
+			<img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" ></img>
+			
+			<div class="contenedor">
+				
+				<h3 class="titulo">
+					<?php
+						$row = $result->fetch_assoc();
+						$titulo=$row['titulo'];
+						$descripcion=$row['descripcion'];
+						$trailer=$row['trailer'];
+
+						echo "<a>$titulo</a>";
+					?>
+				</h3>
+				<p class="descripcion">
+				<?php
+						echo "<a>$descripcion</a>";
+					?>
+				</p>
+				<button type="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button type="button" class="boton" onclick="window.open('https://en.wikipedia.org/wiki/Straight_Outta_Compton_(film)')"><i class="fas fa-info-circle"></i>Más información</button>
+				
+			</div>
 		</div>
 
 		<div class="peliculas-recomendadas contenedor">

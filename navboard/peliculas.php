@@ -37,62 +37,60 @@ if ($connect->connect_errno) {
 	<main>
 		<table>
 			<tbody>
-				<div class="tabla_peliculas">
 					<tr>
 						<td>
-							<div class="pelicula">
-								<a href=""><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/1917.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg"></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/AVATAR.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/avatar.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/AVATAR.jpg"></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/BASTARDOS.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/malditos_bastardos.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/BASTARDOS.jpg"></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/DRSTRANGE.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/dr_strange.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/DRSTRANGE.jpg"></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/hoyo.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/el_hoyo.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/hoyo.jpg"></a>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/JUMANJIJUNGLA.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/jumanji_welcome_to_the_jungle.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/JUMANJIJUNGLA.jpg" alt=""></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/PF.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/pulp_fiction.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/PF.jpg" alt=""></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SAW.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/saw.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SAW.jpg" alt=""></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SONIC2.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/sonic_2.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SONIC2.jpg" alt=""></a>
 							</div>
 						</td>
 						<td>
-							<div class="pelicula">
-								<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" alt=""></a>
+							<div class="peli">
+								<a href="../ver_pelicula/straight-outta-compton.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" alt=""></a>
 							</div>
 						</td>
 					</tr>
-				</div>
 			</tbody>
 		</table>
 		

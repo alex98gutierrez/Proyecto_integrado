@@ -35,77 +35,65 @@ if ($connect->connect_errno) {
 	</header>
 
 	<main>
-		<div class="pelicula-principal">
-			<div class="contenedor">
-				<h3 class="titulo">Interestellar</h3>
-				<p class="descripcion">
-					Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
-				</p>
-				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
-				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
-			</div>
-		</div>
-
-		<div class="peliculas-recomendadas contenedor">
-			<div class="contenedor-titulo-controles">
-				<h3>Películas Recomendadas</h3>
-				<div class="indicadores"></div>
-			</div>
-
-			<div class="contenedor-principal">
-				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
-				<div class="contenedor-carousel">
-					<div class="carousel">
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/AVATAR.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/BASTARDOS.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/DRSTRANGE.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/hoyo.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/JUMANJIJUNGLA.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/PF.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SAW.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SONIC2.jpg" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/1.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/2.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/3.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/4.png" alt=""></a>
-						</div>
-						<div class="pelicula">
-							<a href="#"><img src="img/5.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
-			</div>
-		</div>
+		<table>
+			<tbody>
+					<tr>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/1917.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/1917.jpg"></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/avatar.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/AVATAR.jpg"></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/malditos_bastardos.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/BASTARDOS.jpg"></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/dr_strange.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/DRSTRANGE.jpg"></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/el_hoyo.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/hoyo.jpg"></a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/jumanji_welcome_to_the_jungle.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/JUMANJIJUNGLA.jpg" alt=""></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/pulp_fiction.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/PF.jpg" alt=""></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/saw.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SAW.jpg" alt=""></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/sonic_2.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SONIC2.jpg" alt=""></a>
+							</div>
+						</td>
+						<td>
+							<div class="peli">
+								<a href="../ver_pelicula/straight-outta-compton.php"><img src="https://agpimages.s3.eu-west-3.amazonaws.com/SOC.jpg" alt=""></a>
+							</div>
+						</td>
+					</tr>
+			</tbody>
+		</table>
+		
 	</main>
 	
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
